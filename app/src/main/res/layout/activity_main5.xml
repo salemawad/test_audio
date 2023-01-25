@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اختر مجال عملك"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_margin="12dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/rade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/rdb"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="قسم البرمجة"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_margin="12dp"
+            android:textStyle="bold"
+
+            /> <RadioButton
+        android:id="@+id/rdb1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="قسم التصميم"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+
+        /> <RadioButton
+        android:id="@+id/rdb2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="قسم قواعد البيانات"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+
+        /> <RadioButton
+        android:id="@+id/rdb3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="قسم الصوت"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+
+        /> <RadioButton
+        android:id="@+id/rdb4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="قسم التحليل"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+
+        />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/bnn"
+        android:layout_width="245dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:text="إرسال"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="12dp"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

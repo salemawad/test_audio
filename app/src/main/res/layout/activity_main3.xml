@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:background="#4D4459">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أختر مدينتك"
+        android:textSize="30dp"
+
+        android:textColor="@color/white"
+        />
+    <CheckBox
+        android:id="@+id/shmal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="الشمال"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <CheckBox
+        android:id="@+id/gnop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="الجنوب"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <CheckBox
+        android:id="@+id/westa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="الوسطى"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <CheckBox
+        android:id="@+id/gaza4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="غزة"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <CheckBox
+        android:id="@+id/khan5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="خانيونس"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/btnchick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chick"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="قم بإضافة ملاحظاتك"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:hint="ادخل ملاحظتك هنا"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+
+        />
+    <Button
+        android:id="@+id/btnta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="التالي"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

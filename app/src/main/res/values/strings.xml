@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="city">
+        <item> سيء</item>
+        <item> مقبول</item>
+        <item> جيد </item>
+        <item>جيد جدا</item>
+        <item>  ممتاز</item>
+        <item> رائع</item>
+
+    </string-array>
+</resources>
